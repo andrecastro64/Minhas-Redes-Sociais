@@ -37,7 +37,7 @@ iframe#tela {
     position: relative;
     top: 65px;
     left: 21px;
-    width: 258px;
+    width: 259px;
   height: 465px;
   border-radius: 3px;
   
@@ -48,16 +48,21 @@ section#redes-sociais {
 }
 
 section#redes-sociais img{
-    width: 50px;
+    width: 60px;
     border-radius: 50%;
-    margin: 15px;
+    margin: 15px 50px 15px 15px;
     
+}
+
+article {
+    padding-top: 50px;
+    margin-bottom: -16px;
 }
 
 section#redes-sociais img:hover {
     
     border: solid 2px rgba(255, 255, 255, 0.795);
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.63);
   box-sizing: border-box;
   transition: .5s, border .4s;
   transform: translate(-2px, -3px);
